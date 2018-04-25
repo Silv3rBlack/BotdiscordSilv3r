@@ -17,7 +17,7 @@ var prefix = ("/");
 var randnum = 0;
 var storynumber = db.get('blague').size().value();
 
-bot.login('NDIxNzA4MTM4OTc5MjYyNDc1.Db5N3g.d1iVHgUb0X3xJiL4EbdeOxfgU5Y')
+bot.login('')
 
 bot.on('ready', () => {
     bot.user.setPresence({ game: { name: '/help [Full commands]', type: 0}});
